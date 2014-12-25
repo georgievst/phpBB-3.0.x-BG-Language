@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_OPTIONS'         => 'Опции',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'Информацията, която въведохте беше одобрена. За да започнете конвертирането натиснете бутона долу',
     'CONV_ERR_FATAL'		    => 'Грешка при конвертиране',
-	
+
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP качването на прикачени файлове е включено при стария форум. Изключете FTP качването и се уверете, че сте избрали валидна директория, и тогава копирайте всички прикачени файлове в новата директория. След като направите това, рестартирайте конвертирането.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Няма информация за този конвертор.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Не мога да намеря информация за достъпа до форума.',
@@ -183,21 +183,30 @@ $lang = array_merge($lang, array(
 	'FTP_UPLOAD'				=> 'Качи',
 
 	'GPL'						=> 'General Public License',
-	
+
 	'INITIAL_CONFIG'			=> 'Конфигурация',
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Сървъра установи, че phpBB може да върви на сървъра, трябва да въведете още информация. Ако не знаете как да се свържете към базата данни свържете се с хостинг компанията или phpBB поддръжката.',
 	'INSTALL_CONGRATS'			=> 'Поздравления',
-	'INSTALL_CONGRATS_EXPLAIN'	=> 'Вие успешно инсталирахте phpBB 3.0. Бутона долу ще Ви отведе в администраторския панел. Повече информация можете да намерите тук <a href="https://www.phpbb.com/support/documentation/3.0/">Userguide</a> и <a href="https://www.phpbb.com/phpBB/viewforum.php?f=46">Beta support forum</a>.<br /><br /><strong>Сега трябва да изтриете, преместите или преименувате install директорията преди да можете да използвате форума.</strong>',
+	'INSTALL_CONGRATS_EXPLAIN'	=> '
+		Вие успешно инсталирахте phpBB %1$s. Моля продължете избирайки една от следните опции:</p>
+		<h2>Конвертиране на съществуващ форум към phpBB3</h2>
+        <p>Системата позволява мигриране от phpBB 2.0.x и други форум системи до phpBB3.
+        Ако искате да конвертирате форума си, посетете <a href="%2$s">конвертора</a>.</p>
+		<h2>На живо с phpBB3!</h2>
+        <p>Бутона долу ще ви отведе към страница за изпращане на статистически данни към phpBB в администраторския панел.
+        Тази информация е важна за нас, благодарение на вас може да направим форума по-добър. Може да намерите допълнителна информация за системата в <a href="https://www.phpbb.com/support/documentation/3.0/">Документацията</a>, <a href="%3$s">README</a> и <a href="https://www.phpbb.com/community/viewforum.php?f=46">Форумите за поддръжка</a>.</p>
+        <p><strong>Моля изтрийте, преместете или преименувайте install папката преди да започнете да използвате форума. Докато install директорията съществува, ще можете да използвате само Администраторския панел.</strong>',
 	'INSTALL_INTRO'				=> 'Добре дошли',
-	
-	'INSTALL_INTRO_BODY'		=> 'С тази функция можете да инсталирате форума.</p><p>За да продължите инсталацията ще Ви е нужна следната информация:</p>
+
+    'INSTALL_INTRO_BODY'		=> '<p>С тази функция можете да инсталирате форума.</p>
+    <p>За да продължите инсталацията ще Ви е нужна следната информация:</p>
 	<ul>
 	<li>Име на сървъра на базата данни</li>
 	<li>Име на базата данни</li>
 	<li>Потребителско име и парола на базата данни</li>
 	</ul>
-	
-		<p><strong>Бележка:</strong> Ако инсталирате посредством SQLite, трябва да въведете пълния път към базата данни и да оставите потребителското име и парола празни.</p>
+
+    <p><strong>Бележка:</strong> Ако инсталирате посредством SQLite, трябва да въведете пълния път към базата данни и да оставите потребителското име и парола празни.</p>
 
 	<p>phpBB3 поддържа показаните долу бази данни:</p>
 	<ul>
@@ -249,7 +258,7 @@ $lang = array_merge($lang, array(
 	'INVALID_PRIMARY_KEY'		=> 'Грешен primary key : %s',
 
 	'LONG_SCRIPT_EXECUTION'      => 'Ще отнеме време... Не спирайте скрипта.',
-	
+
 	// mbstring
 	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> проверка на разширение',
 	'MBSTRING_CHECK_EXPLAIN'				=> '<samp>mbstring</samp> е PHP разширение което позволява multibyte функции.',
@@ -266,7 +275,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDERS_WRITABLE'		=> 'Уверете се, че тази папки съществуват и може да се пише в/у тях и тогава опитайте отново:<br />»<strong>%s</strong>',
 
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Вашата схема на базата данни MySQL е много стара. phpBB засече схема за MySQL 3.x/4.x, но сървъра върви на MySQL %2$s.<br /><strong>Преди да продължите, обновете базата.</strong><br /><br />Посетете <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">тази страница</a>. Ако имате проблеми използвайте <a href="https://www.phpbb.com/community/viewforum.php?f=46">нашите форуми поддръжка</a>.',
-	
+
 	'NAMING_CONFLICT'			=> 'Конфликт при именуването: %s и %s <br /><br />%s',
 	'NEXT_STEP'					=> 'Премини към следващата стъпка',
 	'NOT_FOUND'					=> 'Не мога да намеря',
@@ -427,9 +436,9 @@ $lang = array_merge($lang, array(
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Качените файлове са несъвместими с инсталираната версия. Вашата инсталирана версия е %1$s ъпдейт файла за phpBB е за %2$s до %3$s',
 	'INCOMPLETE_UPDATE_FILES'		=> 'Качените файлове са несъвместими',
     'INLINE_UPDATE_SUCCESSFUL'		=> 'Базата данни беше обновена успешно. Сега можете да продължите.',
-	
+
 	'KEEP_OLD_NAME'      => 'Запази името',
-	
+
 	'LATEST_VERSION'		=> 'Последна версия',
 	'LINE'					=> 'Ред',
 	'LINE_ADDED'			=> 'Добавено',
@@ -439,9 +448,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'За да обновите инсталация трябва да влезете.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'Файловете от phpBB инсталацията.',
-	
+
 	'MERGE_MODIFICATIONS_OPTION'   => 'Слей модификациите',
-	
+
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Не съединявай - използвай нов файл',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Не съединявай - използвай инсталирания файл',
 	'MERGE_MOD_FILE_OPTION'		=> 'Съедини разликите и използвай модифицирания код',
@@ -502,7 +511,7 @@ $lang = array_merge($lang, array(
     'TOGGLE_DISPLAY'         => 'Покажи/Скрий списъка',
 	'TRY_DOWNLOAD_METHOD'		=> 'Може би ще искате да изпробвате метода за сваляне на модифицирани файлове.<br />Този метод винаги работи и е препоръчителен за използване.',
 	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Опитайте този метод',
- 
+
 	'UPDATE_COMPLETED'				=> 'Обновяването приключи успешно',
 	'UPDATE_DATABASE'				=> 'Обнови базата данни',
 	'UPDATE_DATABASE_EXPLAIN'		=> 'В следващата стъпка базата данни ще бъде обновена.',
@@ -568,7 +577,7 @@ $lang = array_merge($lang, array(
 
 	'WRONG_INFO_FILE_FORMAT'	=> 'Грешен инфо файл формат',
 	));
-	
+
 	// Default database schema entries...
 $lang = array_merge($lang, array(
 	'CONFIG_BOARD_EMAIL_SIG'		=> 'Благодарим Ви!',
@@ -576,16 +585,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'вашиятдомейн.com',
 
 	'DEFAULT_INSTALL_POST'			=> 'Това е пример за мнение във Вашия форум. Изглежда всичко функционира нормално. Можете да изтриете това мнение, дори ако искате може да изтриете целия раздел. Забавлявайте се!',
-
-	'EXT_GROUP_ARCHIVES'			=> 'Архив',
-	'EXT_GROUP_DOCUMENTS'			=> 'Документи',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Файлове за сваляне',
-	'EXT_GROUP_FLASH_FILES'			=> 'Флаш файлове',
-	'EXT_GROUP_IMAGES'				=> 'Изображения',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Текст',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Файлове',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Първата ви директория',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Описание на първия ви форум.',

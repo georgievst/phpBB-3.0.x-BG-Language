@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode е специално допълнение към HTML предлагащо добър контрол на елементи и текст. От тази страница можете да добавяте, изтрива или променяте допълнителните BBCodes.',
 	'ADD_BBCODE'				=> 'Добави нов BBCode',
-	
+
  	'BBCODE_DANGER'				=> 'BBCode които се опитвате да добавите изглежда, че използва {TEXT} в HTML атрибут. Това е XSS дупка в сигурността. Използвайте {SIMPLETEXT} или {INTTEXT}. Продължете само ако разбирате риска, {TEXT} не може да се избегне.',
  	'BBCODE_DANGER_PROCEED'		=> 'Давай (разбирам риска)', //'I understand the risk',
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Допълнителен текст към BBCode',
 	'BBCODE_HELPLINE_TEXT'		=> 'Помощен ред текст',
 	'BBCODE_HELPLINE_TOO_LONG'	=> 'Прекалено дълъг помощен текст.',
-	
+
 	'BBCODE_INVALID_TAG_NAME'	=> 'BBCode (таг) името вече съществува.',
     'BBCODE_INVALID'         => 'Кода е съдържа грешки.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'BBCode трябва да съдържа отварящ и затварящ таг.',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Тага е прекалено дълъг, трябва да въведете по-къс.',
 	'BBCODE_USAGE'				=> 'BBCode използване',
 	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={TEXT1}]{TEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Тук можете да дефинирате използването на таг.',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Тук можете да дефинирате използването на таг. Подмени която и да е променлива с нейният токен(%sвиж долу%s).',
 
 	'EXAMPLE'						=> 'Пример:',
 	'EXAMPLES'						=> 'Примери:',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Всякакви числа',
 		'EMAIL'			=> 'Валиден email адрес',
 		'URL'			=> 'Валиден URL адрес използващ различен протокол (http, ftp, и други... не могат да бъдат използвани за javascript експлоити).',
-		'LOCAL_URL'		=> 'Локален URL адрес. Той не трябва да съдържа име на сървър или протокол.',
+		'LOCAL_URL'		=> 'Локален URL адрес. Пътя трябва да е релативен, пред линковете се слага “%s”',
 		'RELATIVE_URL'	=> 'Релативен URL адрес. Може да се използва за търсене по част от адреса, но внимавайте: пълен URL адрес е валиден релативен такъв. Ако искате да използвате релативни URL адреси, използвайте локален URL адрес.',
 		'COLOR'			=> 'HTML цвят'
 	)
@@ -108,9 +108,9 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_POSTING'	=> 'Показвай при писане',
 	'DISPLAY_POSTING'			=> 'На страницата при мненията',
 	'DISPLAY_POSTING_NO'		=> 'Не на страницата при мненията',
-	
-	
-	
+
+
+
 	'EDIT_ICONS'				=> 'Промени икони',
 	'EDIT_SMILIES'				=> 'Промени усмивки',
 	'EMOTION'					=> 'Емоция',
@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 	'ADD_RANK'				=> 'Добави нов ранг',
 
 	'MUST_SELECT_RANK'		=> 'Трябва да избереш ранг.',
-	
+
 	'NO_ASSIGNED_RANK'		=> 'Няма избран специален ранг.',
 	'NO_RANK_TITLE'			=> 'Не сте избрали заглавие на ранга.',
 	'NO_UPDATE_RANKS'		=> 'Ранга е успешно изтрит. Потребителските акаунти не са променени, трябва да го направите ръчно.',
@@ -253,12 +253,12 @@ $lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'	=> 'От тук можете да управлявате причините използвани в сигналите/докладите за мнение. Една от причините е по подразбиране (маркирана с *) нея не можете да изтриете.',
 	'ADD_NEW_REASON'		=> 'Добави причина',
 	'AVAILABLE_TITLES'		=> 'Заети заглавия',
-	
+
 	'IS_NOT_TRANSLATED'			=> 'Причината <strong>не е</strong> локализирана.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> '',
 	'IS_TRANSLATED'				=> 'Причината е локализирана.',
 	'IS_TRANSLATED_EXPLAIN'		=> '',
-	
+
 	'NO_REASON'					=> 'Причината не може да бъде намерена.',
 	'NO_REASON_INFO'			=> 'Трябва да въведеш заглавие и описание.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'Не можете да изтриете причината по подразбиране.',

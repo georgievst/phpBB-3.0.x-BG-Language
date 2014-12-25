@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_MANAGEMENT'		=> 'Управление',
 	'ACP_BOARD_SETTINGS'		=> 'Настройки',
 	'ACP_BOTS'					=> 'Паяци и роботи',
-	
+
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
 	'ACP_CAT_DATABASE'			=> 'База данни',
@@ -75,14 +75,14 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS'		=> 'Бисквитки',
 	'ACP_CRITICAL_LOGS'			=> 'Лог с грешки',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Допълнителни полета',
-	
+
 	'ACP_DATABASE'				=> 'Управление на базата данни',
 	'ACP_DISALLOW'				=> 'Отхвърли',
 	'ACP_DISALLOW_USERNAMES'	=> 'Отхвърли имената',
-	
+
 	'ACP_EMAIL_SETTINGS'		=> 'Email настройки',
 	'ACP_EXTENSION_GROUPS'		=> 'Разширения - групи',
-	
+
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Права във форуми',
 	'ACP_FORUM_LOGS'				=> 'Форум логове',
 	'ACP_FORUM_MANAGEMENT'			=> 'Форум ръководство',
@@ -100,20 +100,20 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Управляване на групи',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Ръководство група',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Права на групи',
-	
+
 	'ACP_ICONS'					=> 'Икони на темите',
 	'ACP_ICONS_SMILIES'			=> 'Тема икони/усмивки',
 	'ACP_IMAGESETS'				=> 'Imagesets',
 	'ACP_INACTIVE_USERS'		=> 'Неактивни потребители',
 	'ACP_INDEX'					=> 'Администраторски панел',
-	
+
 	'ACP_JABBER_SETTINGS'		=> 'Jabber настройки',
-	
+
 	'ACP_LANGUAGE'				=> 'Езиково ръководство',
 	'ACP_LANGUAGE_PACKS'		=> 'Езикови пакети',
 	'ACP_LOAD_SETTINGS'			=> 'Настройки зареждане',
 	'ACP_LOGGING'				=> 'Влизане',
-	
+
 	'ACP_MAIN'					=> 'Администраторски панел',
 	'ACP_MANAGE_EXTENSIONS'		=> 'Разширения',
 	'ACP_MANAGE_FORUMS'			=> 'Администрация на форуми',
@@ -126,11 +126,11 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'Модули',
 	'ACP_MOD_LOGS'				=> 'Модераторски лог',
 	'ACP_MOD_ROLES'				=> 'Модераторски',
-	
+
 	'ACP_NO_ITEMS'				=> 'Няма артикули.',
-	
+
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Неизползвани прикачени файлове',
-	
+
 	'ACP_PERMISSIONS'			=> 'Права',
 	'ACP_PERMISSION_MASKS'		=> 'Права маски',
 	'ACP_PERMISSION_ROLES'		=> 'Роли',
@@ -140,9 +140,9 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS'			=> 'Изчистване на форум',
 	'ACP_PRUNE_USERS'			=> 'Изчисти потребители',
 	'ACP_PRUNING'				=> 'Изчистване',
-	
+
 	'ACP_QUICK_ACCESS'			=> 'Бърз достъп',
-	
+
 	'ACP_RANKS'					=> 'Рангове',
 	'ACP_REASONS'				=> 'Причини за сигнали',
 	'ACP_REGISTER_SETTINGS'		=> 'Регистрация на потребители',
@@ -165,10 +165,10 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> 'Ръководство',
 	'ACP_STYLES'				=> 'Стилове',
 	'ACP_SUBMIT_CHANGES'		=> 'Промени настройки',
-	
+
 	'ACP_TEMPLATES'				=> 'Шаблони',
 	'ACP_THEMES'				=> 'Теми',
-	
+
 	'ACP_UPDATE'					=> 'Променяне',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Потребителски (форум)',
 	'ACP_USERS_LOGS'				=> 'Потребителски логове',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Форум-базираните права',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'На глобалните модератори',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'Потребителски-базираните',
-	
+
 	'ACP_WORDS'					=> 'Цензуриране на думи',
 
 	'ACTION'				=> 'Действие',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'Администрация',
 	'ADMIN_INDEX'			=> 'Начало админ панел',
 	'ADMIN_PANEL'			=> 'Администраторски контролен панел',
-	
+
 	'ADM_LOGOUT'			=> 'ACP&nbsp;Изход',
 	'ADM_LOGGED_OUT'		=> 'Вие успешно излязохте от администраторския панел',
 
@@ -245,7 +245,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ADMIN_SUCCESS'	=> 'Пренасочване към администраторския панел',
 	'LOOK_UP_FORUM'			=> 'Избери форум',
     'LOOK_UP_FORUMS_EXPLAIN'=> 'Вие можете да избирате повече от един форум.',
-	
+
 	'MANAGE'				=> 'Управлявай',
 	'MENU_TOGGLE'			=> 'Скрий или покажи менюто',
 	'MORE'					=> 'Повече',			// Not used at the moment
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Известия',
 	'NO_ADMIN'				=> 'Нямате нужните права за да администрирате този форум.',
 	'NO_EMAILS_DEFINED'		=> 'Не е намерен валиден email адрес',
-	'NO_PASSWORD_SUPPLIED'	=> 'Трябва да въведете парола за да влезете в администраторския панел.',	
+	'NO_PASSWORD_SUPPLIED'	=> 'Трябва да въведете парола за да влезете в администраторския панел.',
 
 	'OFF'					=> 'Изключено',
 	'ON'					=> 'Включено',
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 
 	'SELECT_ANONYMOUS'		=> 'Избери анонимен потребител',
 	'SELECT_OPTION'			=> 'Избери',
-	
+
 	'SETTING_TOO_LOW'		=> 'Въведената стойност “%1$s” е прекалено ниска. Минимума е %2$d.',
 	'SETTING_TOO_BIG'		=> 'Въведената стойност “%1$s” е прекалено висока. Максимума е %2$d.',
 	'SETTING_TOO_LONG'		=> 'Въведената стойност “%1$s” е прекалено дълга. Максималната дължина е %2$d.',
@@ -324,7 +324,7 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'База данни',
 	'DATABASE_SIZE'			=> 'Размер на базата данни',
-	
+
 // Enviroment configuration checks, mbstring related
    'ERROR_MBSTRING_FUNC_OVERLOAD'               => 'Функцията overloading е неправилно конфигурирана',
    'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'         => '<var>mbstring.func_overload</var> трябва да е зададена на 0 или 4. За да видите как е зададена в момента, посетете <samp>PHP information</samp> страницата.',
@@ -346,11 +346,11 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'Брой теми',
 	'NUMBER_USERS'		=> 'Брой потребители',
 	'NUMBER_ORPHAN'		=> 'Неизползвани прикачени файлове',
-	
+
 	'PHP_VERSION_OLD'	=> 'Версията на PHP-то вече не се поддържа от phpBB. %sПовече Информация%s',
 
 	'POSTS_PER_DAY'		=> 'Мнения на ден',
-	
+
     'PURGE_CACHE'			=> 'Изчисти кеша',
 	'PURGE_CACHE_CONFIRM'	=> 'Сигурен ли сте, че искате да изчистите кеша?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Изчиства всички свързани кеширани елементи.',
@@ -375,7 +375,7 @@ $lang = array_merge($lang, array(
 
 	'STATISTIC'			=> 'Статистика',
     'STATISTIC_RESYNC_OPTIONS'	=> 'Ресинхронизирай или нулирай статистиката',
-	
+
 	'TOPICS_PER_DAY'	=> 'Теми на ден',
 
 	'UPLOAD_DIR_SIZE'	=> 'Размер на прикачените файлове',
@@ -414,7 +414,7 @@ $lang = array_merge($lang, array(
 	'SORT_REMINDER'		=> 'Изпратени',
 
 	'USER_IS_INACTIVE'		=> 'Потребителя е неактивен',
-	
+
 ));
 
 // Send statistics page
@@ -456,10 +456,10 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Тества правата на</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Върнати собствени си права, взети от</strong><br />» %s',
-	
+
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Неуспешен вход на администратор</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Успешен вход на администратор</strong>',
-	
+
 	'LOG_ATTACHMENTS_DELETED'   => '<strong>Изтриване: прикачен файл на потребител</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Добавени/променени разширения на файлове</strong><br />» %s',
@@ -469,7 +469,7 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Промяна: група разширения</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Изтриване: група разширения</strong><br />» %s',
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Добавяне: Излишен файл в мнение</strong><br />» ID %1$d - %2$s',
-	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Изтриване: на излишен файл/strong><br />» %s',
+	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Изтриване: на излишен файл</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Премахване: потребител от бан</strong> причина "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Премахване: IP от бан</strong> причина "<em>%1$s</em>"<br />» %2$s ',
@@ -515,14 +515,14 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Одобрение: тема</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Потребител избутва тема</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Изтриване: мнение</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>Изтрито мнение “%1$s” написано от</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Изтри темата</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Изтриване: тема</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Изтрита тема “%1$s” написана от</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Копирана тема</strong><br />» from %s',
 	'LOG_LOCK'					=> '<strong>Заключена тема</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Заключено мнение</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Съединение: мнения</strong> в тема<br />» %s',
-	'LOG_MOVE'					=> '<strong>Преместване: тема</strong><br />» от %s',
+	'LOG_MOVE'					=> '<strong>Преместена тема</strong><br />» от %1$s на %2$s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Затворени лични съобщения доклад</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Изтрити лични съобщения доклад</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Одобрено мнение</strong><br />» %s',
@@ -554,7 +554,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_JABBER'		=> '<strong>Jabberгрешки</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Копирани форум права</strong> от %1$s<br />» %2$s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Email грешки</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>Създаден нов форум</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Изтриване: форум</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Изтриване: форум и под форуми</strong><br />» %s',
@@ -572,7 +572,7 @@ $lang = array_merge($lang, array(
 	'LOG_GENERAL_ERROR'	=> '<strong>Грешка</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Добавяне: потребителска група</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS'	=> '<strong>Направена група по подразбиране</strong><br />» %s',
+	'LOG_GROUP_DEFAULTS'	=> '<strong>Групата “%1$s” вече е по подразбиране за</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'		=> '<strong>Изтриване: група</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'		=> '<strong>Лидери понижени в група</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>Потребител повишен в лидер</strong> %1$s<br />» %2$s',
@@ -592,7 +592,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'	=> '<strong>Промяна: детайли на imageset</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'			=> '<strong>Промяна: imageset</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'		=> '<strong>Експортиран imageset</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'      => '<strong>Липсва пътя към имиджсет-а</strong><br />» %1$s',
+	'LOG_IMAGESET_LANG_MISSING'      => '<strong>Липсва пътя към имиджсет-а (%2$s)</strong><br />» %1$s',
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Обновена “%2$s” локализация на imageset</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'	=> '<strong>Обновление: imageset</strong><br />» %s',
 
@@ -614,15 +614,15 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Промяна: езиков пакет</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Заместване: езиков пакет</strong><br />» %s',
     'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Изпратен езиков файл и сладиран в папка.</strong><br />» %s',
-	
+
 	'LOG_MASS_EMAIL'		=> '<strong>Изпратил масов email</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Промяна: автор на тема "%1$s"</strong><br />» на %2$s to %3$s',
 
-	'LOG_MODULE_DISABLE'	=> '<strong>Изключване на модул</strong>',
-	'LOG_MODULE_ENABLE'		=> '<strong>Включване на модул</strong>',
-	'LOG_MODULE_MOVE_DOWN'	=> '<strong>Преместване: модул надолу</strong><br />» %s',
-	'LOG_MODULE_MOVE_UP'	=> '<strong>Преместване: модул нагоре</strong><br />» %s',
+	'LOG_MODULE_DISABLE'	=> '<strong>Изключване на модул</strong><br />» %s',
+	'LOG_MODULE_ENABLE'		=> '<strong>Включване на модул</strong><br />» %s',
+	'LOG_MODULE_MOVE_DOWN'	=> '<strong>Преместване: модул надолу</strong><br />» %1$s под %2$s',
+	'LOG_MODULE_MOVE_UP'	=> '<strong>Преместване: модул нагоре</strong><br />» %1$s над %2$s',
 	'LOG_MODULE_REMOVED'	=> '<strong>Изтриване: модул</strong><br />» %s',
 	'LOG_MODULE_ADD'		=> '<strong>Добавяне: модул</strong><br />» %s',
 	'LOG_MODULE_EDIT'		=> '<strong>Промяна: модул</strong><br />» %s',
@@ -654,7 +654,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PURGE_CACHE'			=> '<strong>Изчисти кеша</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Изчистени сесии</strong>',
-	
+
 	'LOG_RANK_ADDED'		=> '<strong>Добавяне: нов ранг</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Изтриване: ранг</strong><br />» %s',
 	'LOG_RANK_UPDATED'		=> '<strong>Добавяне: ранг</strong><br />» %s',
@@ -690,7 +690,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_FS'			=> '<strong>Добавяне: нова тема във файловата система</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Изтриване: тема</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Промяна: тема</strong><br />» %s',
-	'LOG_THEME_EDIT'			=> '<strong>Промяна: тема <em>%1$s</em></strong><br />» Модифициран клас <em>%2$s</em>',
+	'LOG_THEME_EDIT'			=> '<strong>Променена тема <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Промяна: тема <em>%1$s</em></strong><br />» Добавен клас <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Промяна: тема</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Обновена тема</strong><br />» %s',

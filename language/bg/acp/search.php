@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Търсачката се почиства. Това ще отнеме няколко минути.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'Трябва ви версия над/или MySQL4.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL (fulltext) може да се използва само с MyISAM или InnoDB таблици. MySQL 5.6.4 или по-стара версия се изисква за fulltext индексите на InnoDB таблици.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltext индекси могат да бъдат използвани само с MyISAM или InnoDB таблици. MySQL 5.6.4 е задължителен за fulltext на InnoDB таблици.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Общия брой на индексираните мнения',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Поддръжка за различни от UTF-8 знаци използване mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Поддръжка за различни от UTF-8 знаци използване PCRE:',
