@@ -140,5 +140,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Няма информация.',
 	'USER_TOOLS'					=> 'Инструменти',
 ));
-
-?>

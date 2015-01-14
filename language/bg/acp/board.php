@@ -546,5 +546,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabber потребителско име',
 	'JAB_USERNAME_EXPLAIN'		=> 'Ако потребителя не съществува ще бъде направен опит за създаването му.',
 ));
-
-?>

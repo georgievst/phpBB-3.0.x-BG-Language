@@ -69,5 +69,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> 'Не е намерен бот с този ID.',
 	'NO_BOT_GROUP'	=> 'Не мога да намеря бот групата.',
 ));
-
-?>

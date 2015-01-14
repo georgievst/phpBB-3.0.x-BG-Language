@@ -92,5 +92,3 @@ $lang = array_merge($lang, array(
     'USER_GROUP_DEMOTE_CONFIRM'    => 'Сигурен ли сте, че вече не искате да бъдете лидер на групата?',
     'USER_GROUP_DEMOTED'        => 'Успешно понижен.',
 ));
-
-?>

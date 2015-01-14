@@ -559,5 +559,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'Няма висящи членове',
 	'NO_NONMEMBER'	=> 'Няма група без потребители',
 ));
-
-?>

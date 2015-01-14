@@ -237,5 +237,3 @@ $lang = array_merge($lang, array(
 	'acl_a_backup'		=> array('lang' => 'Може да бек-ъпва/възстановява база данни', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Може да променя настройките за търсене', 'cat' => 'misc'),
 ));
-
-?>

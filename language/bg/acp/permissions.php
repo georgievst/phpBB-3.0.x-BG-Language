@@ -283,5 +283,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'	=> 'Избран е грешен тип на правата.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Настройките на правата са грешни, phpBB не може да ги разчете.',
 ));
-
-?>

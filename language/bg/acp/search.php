@@ -105,5 +105,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Включи обновяването',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Обновяване на индекса при изключено търсене.',
 ));
-
-?>

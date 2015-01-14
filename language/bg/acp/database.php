@@ -73,5 +73,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'Избери таблица',
 	'TABLE_SELECT_ERROR'=> 'Трябва да изберете поне една таблица.',
 ));
-
-?>

@@ -170,5 +170,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Икона',
 	'UPLOAD_NOT_DIR'				=> 'Мястото което сте избрали не е папка.',
 ));
-
-?>

@@ -128,5 +128,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> '',
 	'USER_GROUP_LEADER'				=> 'Направи лидер на групата',
 ));
-
-?>
