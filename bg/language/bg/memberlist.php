@@ -41,10 +41,10 @@ $lang = array_merge($lang, array(
 	'ACTIVE_IN_TOPIC'		=> 'Най-активна тема',
 	'ADD_FOE'				=> 'Добави враг',
 	'ADD_FRIEND'			=> 'Добави приятел',
-	'AFTER'					=> 'След',	
+	'AFTER'					=> 'След',
 
 	'ALL'					=> 'Всички',
-	
+
 	'BEFORE'				=> 'Преди',
 
 	'CC_EMAIL'				=> 'Изпрати ми копие',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'IM_MESSAGE'			=> 'Вашето съобщение',
 	'IM_MSNM'				=> 'Трябва да имате инсталиран Windows Messenger за да използвате това.',
 	'IM_MSNM_BROWSER'		=> 'Браузъра ви не поддържа това.',
-	'IM_MSNM_CONNECT'		=> 'MSNM не е свързан.\nТрябва да се свържете към MSNM за да продължите.',		
+	'IM_MSNM_CONNECT'		=> 'MSNM не е свързан.\nТрябва да се свържете към MSNM за да продължите.',
 	'IM_NAME'				=> 'Вашето име',
 	'IM_NO_DATA'         => 'Няма информация за потребителя.',
 	'IM_NO_JABBER'			=> 'Директното изпращане на съобщения до Jabber потребители не се поддържа.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Изпрати',
 	'IM_SENT_JABBER'		=> 'Съобщението до %1$s беше изпратено успешно.',
 	'IM_USER'				=> 'Изпрати бързо съобщение',
-	
+
 	'LAST_ACTIVE'				=> 'Последно активен',
 	'LESS_THAN'					=> 'По-малко от',
 	'LIST_USER'					=> '1 потребител',
@@ -138,6 +138,8 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'На линия',
 	'USER_PRESENCE'			=> 'Присъствие',
+    'USERS_PER_PAGE'        => 'Потребители на страница',
+
 
 	'VIEWING_PROFILE'		=> 'Преглеждане на профил - %s',
 	'VISITED'				=> 'Последно посещение',
